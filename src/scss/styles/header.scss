@@ -1,0 +1,83 @@
+.header{
+  &__menu{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px 0;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    z-index: 5;
+  }
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item{
+    margin-left: 20px;
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+  &__link{
+    transition: 0.3s;
+    &:hover{
+      color: $success-color;
+    }
+  }
+  &__infs{
+    text-align: right;
+  }
+  &__infAbout{
+    display: block;
+    margin-top: -2px;
+  }
+  &__secondTel{
+    display: block;
+    margin-top: 6px;
+  }
+  &__content{
+    margin-top: 98px;
+    position: relative;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding: 130px 0 170px;
+  }
+  &__contentInner{
+    max-width: 620px;
+    width: 100%;
+  }
+  &__about{
+    width: 384px;
+  }
+  &__prize{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__prizeText{
+    margin-left: 6px;
+  }
+  &__btnAbout{
+    display: block;
+    width: 370px;
+    text-align: left;
+  }
+  &__absMenu{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__nav{
+    &_ml{
+      margin-left: 180px;
+    }
+  }
+}

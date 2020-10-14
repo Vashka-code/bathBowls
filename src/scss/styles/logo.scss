@@ -1,0 +1,18 @@
+.logo{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  &__content{
+    display: block;
+    margin-left: 5px;
+    width: 92px;
+  }
+  &__text{
+    font-size: 17px;
+    line-height: 20px;
+    font-family: $secondFont;
+  }
+  &__about{
+    color: #000;
+  }
+}

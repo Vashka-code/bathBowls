@@ -1,0 +1,30 @@
+@import 'utils/mixins';
+@import 'utils/vars';
+@import 'utils/libs';
+@import 'utils/fonts';
+
+// styles
+@import 'styles/common';
+@import 'styles/logo';
+@import 'styles/button';
+@import 'styles/cocoen';
+@import 'styles/swiper';
+@import 'styles/input';
+@import 'styles/menuBtn';
+
+// blocks
+@import 'styles/header';
+@import 'styles/advantages';
+@import 'styles/questions';
+@import 'styles/price';
+@import 'styles/basicEquipment';
+@import 'styles/pickUp';
+@import 'styles/canUse';
+@import 'styles/photoGallery';
+@import 'styles/faq';
+@import 'styles/reviews';
+@import 'styles/popupForm';
+@import 'styles/footer';
+
+// media
+@import 'styles/media';

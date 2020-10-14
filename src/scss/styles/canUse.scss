@@ -1,0 +1,32 @@
+.canUse{
+  padding-top: 110px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  &__texts{
+    width: 340px;
+  }
+  &__item{
+    margin-top: 12px;
+    padding-left: 27px;
+    position: relative;
+    &::after{
+      content: '';
+      display: block;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: $success-color;
+      position: absolute;
+      left: 0;
+      top: 6px;
+    }
+    &:first-child{
+      margin-top: 0;
+    }
+  }
+  &__list{
+    margin-top: 40px;
+  }
+}

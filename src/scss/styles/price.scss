@@ -1,0 +1,28 @@
+.price{
+  padding-top: 90px;
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -64px;
+  }
+  &__item{
+    margin-top: 40px;
+    margin-left: 64px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    width: 285px;
+  }
+  &__content{
+    padding: 32px 32px 44px 32px;
+    text-align: center;
+  }
+  &__img{
+    max-width: 100%;
+    height: auto;
+  }
+  &__people{
+    display: block;
+  }
+}

@@ -1,0 +1,23 @@
+.pickUp{
+  padding: 50px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__wrapper{
+    max-width: 770px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+  &__text{
+    font-family: $titleFont ;
+  }
+  &__btn{
+    margin: 30px auto 0;
+  }
+  &__img{
+    bottom: -110px;
+    left: -170px;
+    position: absolute;
+  }
+}

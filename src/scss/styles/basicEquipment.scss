@@ -1,0 +1,126 @@
+.basicEquipment{
+  padding: 60px 0;
+  text-align: center;
+  &__img{
+    display: block;
+    margin: 24px 0;
+    filter: drop-shadow(0px 0px 31.15px rgba(0, 0, 0, 0.05));
+  }
+  &__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__item{
+    width: 540px;
+    margin-top: 40px;
+  }
+  &__line{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  &__text{
+    width: 180px;
+    display: block;
+    position: relative;
+    &_lattice{
+      margin-left: 106px;
+      .basicEquipment__lineVert{
+        height: 244px;
+      }
+    }
+    &_steel{
+      margin-left: 30px;
+      .basicEquipment__lineVert{
+        height: 130px;
+      }
+    }
+    &_board{
+      margin-left: 5px;
+      .basicEquipment__lineCircle{
+        top: auto;
+        bottom: 52px;
+      }
+      .basicEquipment__lineVert{
+        height: 360px;
+      }
+    }
+    &_innerBench{
+      margin-left: 75px;
+      .basicEquipment__lineCircle{
+        top: auto;
+        bottom: 52px;
+      }
+      .basicEquipment__lineVert{
+        height: 110px;
+      }
+    }
+    &_heatResistant{
+      margin-left: 30px;
+      width: 295px;
+    }
+    &_durable{
+      margin-left: 50px;
+      .basicEquipment__lineCircle{
+        top: auto;
+        bottom: 52px;
+      }
+      .basicEquipment__lineVert{
+        height: 130px;
+      }
+    }
+    &_stairs{
+      margin-left: 130px;
+      .basicEquipment__lineCircle{
+        top: auto;
+        bottom: 52px;
+      }
+      .basicEquipment__lineVert{
+        height: 100px;
+      }
+    }
+  }
+  &__circle{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__circleInner{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $success-color;
+  }
+  &__circleInner2{
+    width: 14px;
+    height: 14px;
+    background: $success-color;
+    border-radius: 50%;
+  }
+  &__lineVert{
+    width: 4px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4px;
+    background: $success-color;
+  }
+  &__lineCircle{
+    top: 52px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    z-index: 4;
+  }
+}

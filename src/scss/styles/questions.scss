@@ -1,0 +1,50 @@
+.questions{
+  padding: 75px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__title{
+    width: 600px;
+    display: block;
+  }
+  &__about{
+    display: block;
+    margin-top: 40px;
+    width: 100%;
+  }
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    margin-left: -36px;
+  }
+  &__item{
+    margin-top: 20px;
+    width: 314px;
+    padding-left: 30px;
+    position: relative;
+    margin-left: 36px;
+    &:after{
+      content: '';
+      display: block;
+      width: 14px;
+      height: 14px;
+      background: $success-color;
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+      top: 4px;
+    }
+  }
+  &__underText{
+    margin-top: 40px;
+    display: block;
+  }
+  &__wrapper{
+    position: relative;
+  }
+  &__img{
+    position: absolute;
+    right: 0;
+    bottom: -105px;
+  }
+}

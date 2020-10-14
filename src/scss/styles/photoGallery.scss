@@ -1,0 +1,28 @@
+.photoGallery{
+  padding: 95px 0 45px;
+  text-align: center;
+  &__slide{
+    display: flex;
+  }
+  &__img{
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  &__addImages{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+  }
+  &__container{
+    margin-top: 45px;
+  }
+  &__wrapper{
+    padding-bottom: 70px;
+  }
+  &__pagination{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: $titleFont;
+  }
+}

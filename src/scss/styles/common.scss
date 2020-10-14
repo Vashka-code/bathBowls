@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: $mainFont;
+  line-height: $mainLineHeight;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+.null{
+  margin: 0;
+  padding: 0;
+}
+
+// wrappers
+.wrapper{
+  width: 95%;
+  margin: 0 auto;
+  max-width: $wrapperWidth;
+}
+.wrapperBig{
+  width: 95%;
+  margin: 0 auto;
+  max-width: $wrapperWidthBig;
+}
+
+// texts
+.text{
+  &_13{
+    font-size: 13px;
+    color: $neutral-regular;
+  }
+  &_14{
+    font-size: 14px;
+    color: #000000;
+    &_300{
+      font-weight: 300;
+      font-size: 14px;
+      color: #FFFFFF;
+    }
+    &_250{
+      font-weight: 250;
+      font-size: 14px;
+      color: #FFFFFF;
+    }
+  }
+  &_15{
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+    &_grey{
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      color: rgba(0, 0, 0, 0.4);
+    }
+  }
+  &_19{
+    font-weight: 500;
+    font-size: 19px;
+    color: #000000;
+    &_400{
+      font-size: 19px;
+      color: #000000;
+      font-family: $titleFont ;
+    }
+    &_300{
+      font-weight: 300;
+      font-size: 19px;
+      color: #FFFFFF;
+    }
+  }
+  &_20{
+    font-size: 20px;
+    color: $neutral-primary;
+    &_500{
+      font-weight: 500;
+      font-size: 20px;
+      color: #000000;
+    }
+    &_black{
+      font-size: 20px;
+      color: #000000;
+    }
+  }
+  &_22{
+    font-size: 22px;
+    color: #000000;
+  }
+  &_25{
+    font-weight: bold;
+    font-size: 25px; 
+    color: $neutral-primary;
+  }
+  &_26{
+    font-weight: 500;
+    font-size: 26px;
+    color: #000000;
+  }
+  &_30{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: $titleFont;
+    color: $neutral-primary;
+  }
+  &_33{
+    font-family: $titleFont;
+    font-weight: bold;
+    font-size: 33px;
+    color: #000000;
+  }
+  &_34{
+    font-family: $titleFont;
+    font-weight: bold;
+    font-size: 34px;
+  }
+  &_35{
+    font-family: $titleFont;
+    font-weight: bold;
+    font-size: 35px;
+    color: #000000;
+  }
+  &_42{
+    font-family: $titleFont;
+    font-weight: bold;
+    font-size: 42px;
+    color: $neutral-primary;
+  }
+}
+
+// colors
+.successColor{
+  color: $success-color;
+}
+
+
+// margin-top
+.mt{
+  &_5{
+    margin-top: 5px;
+  }
+  &_10{
+    margin-top: 10px;
+  }
+  &_15{
+    margin-top: 15px;
+  }
+  &_20{
+    margin-top: 20px;
+  }
+}
+
+
+// weight
+.bold{
+  font-weight: 700;
+}

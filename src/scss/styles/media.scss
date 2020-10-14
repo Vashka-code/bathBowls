@@ -1,0 +1,402 @@
+@media(max-width: $desktopWidth){
+  .header{
+    &__content{
+      padding: 100px 0 80px;
+      background-image: none!important;
+    }
+    &__contentInner{
+      max-width: 100%;
+      text-align: center;
+    }
+    &__about{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &__prize{
+      justify-content: center;
+    }
+    &__btn{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &__btnAbout{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+    }
+  }
+  .price{
+    &__list{
+      justify-content: center;
+    }
+    &__title{
+      text-align: center;
+    }
+  }
+  .basicEquipment{
+    &__content{
+      justify-content: center;
+    }
+  }
+  .canUse{
+    &__texts{
+      width: 100%;
+    }
+    &__title{
+      text-align: center;
+    }
+    &__list{
+      margin-top: 20px;
+    }
+  }
+  .cocoen{
+    margin: 20px auto 0;
+  }
+  .photoGallery{
+    &__mainLink{
+      width: 47%;
+    }
+    &__addImages{
+      width: 49%;
+      margin-top: -10px;
+      margin-left: 0px;
+    }
+    &__mainImg{
+      width: 100%;
+      height: auto;
+    }
+    &__img{
+      margin-left: 0px;
+      margin-top: 0px;
+      width: 100%;
+      height: auto;
+    }
+    &__imgLink{
+      display: block;
+      width: 45%;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  }
+}
+@media(max-width: $smDesktopWidth){
+  .menuBtn{
+    display: block;
+    margin-left: auto;
+  }
+  .text{
+    &_42{
+      font-size: 38px;
+    }
+  }
+  .header{
+    &__absMenu{
+      position: absolute;
+      background: #fff;
+      top: 95px;
+      right: 0;
+      width: 60%;
+      padding: 20px 30px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      flex-wrap: wrap;
+      opacity: 0;
+      transition: 0.3s;
+      transform: translateX(10%) scaleX(0);
+      transform-origin: right center;
+      &.active{
+        opacity: 1;
+        transform: translateX(0%) scaleX(1);
+      }
+    }
+    &__nav{
+      width: 100%;
+      &_ml{
+        margin-left: 0;
+      }
+    }
+    &__list{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &__item{
+      margin-left: 0;
+      margin-top: 6px;
+      &:first-child{
+        margin-top: 0;
+      }
+    }
+    &__link{
+      font-size: 20px;
+      font-weight: 500;
+    }
+    &__infs{
+      text-align: center;
+      width: 100%;
+      margin-top: 15px;
+    }
+    &__content{
+      margin-top: 90px;
+      padding: 60px 0;
+    }
+  }
+  .advantages{
+    &__list{
+      margin-top: -10px;
+    }
+    &__item{
+      margin-top: 10px;
+    }
+  }
+  .questions{
+    &__img{
+      display: none;
+    }
+  }
+}
+@media(max-width: $tableWidth){
+  .text{
+    &_22{
+      font-size: 20px;
+    }
+    &_20{
+      font-size: 18px;
+    }
+  }
+  .header{
+    &__absMenu{
+      width: 100%;
+    }
+  }
+  .advantages{
+    padding-top: 10px;
+  }
+  .questions{
+    padding: 60px 0;
+    &__title{
+      width: 100%;
+      text-align: center;
+    }
+    &__list{
+      width: 100%;
+      margin-left: -12px;
+    }
+    &__item{
+      width: 200px;
+      padding-left: 20px;
+      margin-left: 12px;
+      &:after{
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+  .price {
+    padding-top: 50px;
+    &__item{
+      margin-top: 15px;
+    }
+  }
+  .basicEquipment{
+    &__item{
+      width: 420px;
+    }
+    &__img{
+      width: 100%;
+      height: auto;
+    }
+    &__text{
+      width: 160px;
+      &_lattice{
+        margin-left: 73px;
+        .basicEquipment__lineVert{
+          height: 180px;
+        }
+      }
+      &_steel{
+        margin-left: 10px;
+        .basicEquipment__lineVert {
+          height: 80px;
+        }
+      }
+      &_board{
+        .basicEquipment__lineVert {
+          height: 285px;
+        }
+      }
+      &_heatResistant{
+        width: 320px;
+        .basicEquipment__lineVert {
+          height: 155px;
+        }
+      }
+      &_durable{
+        margin-left: 25px;
+      }
+      &_stairs{
+        margin-left: 71px;
+      }
+    }
+  }
+  .photoGallery{
+    padding: 50px 0 30px;
+    &__mainLink{
+      width: 100%;
+    }
+    &__slide{
+      flex-wrap: wrap;
+    }
+    &__addImages{
+      margin-left: 0px;
+      margin-top: -10px;
+      width: 100%;
+      justify-content: space-between;
+    }
+    &__imgLink{
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    &__container{
+      margin-top: 20px;
+      width: 90%;
+    }
+  }
+  .swiper-button-prev{
+    left: 30%;
+  }
+  .swiper-button-next{
+    right: 30%;
+  }
+  .faq{
+    &__question{
+      padding: 16px 33px;
+    }
+    &__answer{
+      padding: 0 33px;
+      &.active{
+        padding: 16px 33px;
+        max-height: 500px;
+      }
+    }
+  }
+  .footer {
+    &__column{
+      width: 100%;
+      &_flex{
+        justify-content: space-between;
+      }
+      &_right{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+@media(max-width: $phoneWidth){
+  .text{
+    &_42{
+      font-size: 34px;
+    }
+    &_34{
+      font-size: 26px;
+    }
+    &_33{
+      font-size: 30px;
+    }
+    &_30{
+      font-size: 24px;
+    }
+    &_22{
+      font-size: 18px;
+    }
+    &_20{
+      font-size: 16px;
+    }
+  }
+  .header{
+    &__about{
+      width: 100%;
+      margin-top: 10px;
+    }
+    &__btnAbout{
+      width: 100%;
+    }
+  }
+  .questions{
+    &__about{
+      margin-top: 20px;
+    }
+    &__item{
+      width: 100%;
+    }
+    &__underText{
+      margin-top: 20px;
+    }
+  }
+  .price{
+    &__content{
+      padding: 26px 26px 34px;
+    }
+  }
+  .basicEquipment{
+    &__item{
+      width: 300px;
+    }
+    &__text{
+      width: 120px;
+      .text_20{
+        font-size: 14px;
+      }
+      &_lattice{
+        margin-left: 40px;
+        .basicEquipment__lineVert{
+          height: 130px;
+        }
+      }
+      &_steel{
+        .basicEquipment__lineVert{
+          height: 50px;
+        }
+      }
+      &_board{
+        margin-left: 0;
+        .basicEquipment__lineVert {
+          height: 170px;
+        }
+      }
+      &_innerBench{
+        margin-left: 49px;
+      }
+      &_durable{
+        margin-left: 0px;
+      }
+      &_stairs {
+        margin-left: 60px;
+        .basicEquipment__lineVert {
+          height: 70px;
+        }
+      }
+    }
+  }
+  .canUse{
+    padding-top: 70px;
+  }
+  .faq{
+    &__question{
+      padding: 14px 23px;
+    }
+    &__answer{
+      padding: 0 23px;
+      &.active{
+        padding: 14px 23px;
+        max-height: 500px;
+      }
+    }
+  }
+  .popupForm{
+    padding: 24px 22px 30px;
+  }
+}
